@@ -2,6 +2,6 @@ title {
     font-family: 'Sans';
 }
 
-table {
+table, td {
     border: black 1px solid;
 }

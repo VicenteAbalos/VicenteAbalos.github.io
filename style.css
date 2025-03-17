@@ -1,11 +1,21 @@
 title {
-    font-family: 'Sans';
-}
+    font-family: verdana;
+    text-align: center;
 
+}
+body {
+    background-color: #1d1d39;
+}
 table {
     border: black 1px solid;
+    margin: auto;
 }
 
-header {
-    border: blue 1px solid;
+th {
+    border-style: solid;
+    border-width: medium;
+}
+td {
+    border-style: solid;
+    border-width: medium;
 }

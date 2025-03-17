@@ -25,6 +25,7 @@ h1 {
 img {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 body {
     background-color: #2d2d61;

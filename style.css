@@ -14,9 +14,9 @@ h1 {
 .summary {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    text-align: justify;
-    color: white;
     display: none;
+    color: white;
+    text-align: justify;
 }
 .imageBox {
     margin: auto;

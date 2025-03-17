@@ -72,7 +72,12 @@
             <td>Native</td>
         </tr>
     </table>
-
+    <div>
+        <label for="tInput">Isert Text</label><br>
+        <input type="text" class="txtInput" id="tInput">
+        <button type="button" onclick="mybuttonT()">DISPLAY</button>
+        <p id="textholder"></p>
+    </div>
     <p class="ending">You've reached the end! Have a <a href="https://en.wikipedia.org/wiki/Pwyll_Pendefig_Dyfed">link</a>. It-s on the house.</p>
 
 <script>
@@ -84,6 +89,12 @@
         else {
             v.style.display = "block"
         }
+    }
+    function mybuttonT(){
+        var t=document.getElementById("textholder")
+        var inp=document.getElementById("tInput")
+        t.innerHTML=inp
+
     }
 </script>
 </body>

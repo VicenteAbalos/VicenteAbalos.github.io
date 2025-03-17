@@ -20,7 +20,7 @@ h1 {
 }
 .imageBox {
     margin: auto;
-    align-items: center;
+    display: block;
 }
 img {
     margin-left: auto;

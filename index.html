@@ -20,7 +20,7 @@
         During my free time, I like to play videogames and go on walks.</p>
     <div class="imageBox">
         <img src="coffee mug.jfif">
-    <p class="List">Image of Dean McCoppin</p>
+    <p class="imgTxt">Image of Dean McCoppin</p>
     </div>
     <table>
         <tr>
@@ -72,9 +72,18 @@
             <td>Native</td>
         </tr>
     </table>
+<div>
+    <p class="ending">You've reached the end! Have a <a href="https://en.wikipedia.org/wiki/Pwyll_Pendefig_Dyfed">link</a>. It-s on the house.</p>
+</div>
 <script>
     function mybuttonF() {
-        document.getElementById("summ").style.display = "block";
+        var v=document.getElementById("summ")
+        if (v.style.display === "block"){
+            v.style.display = "none";
+        }
+        else {
+            v.style.display = "block"
+        }
     }
 </script>
 </body>

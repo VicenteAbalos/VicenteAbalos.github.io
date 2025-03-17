@@ -17,6 +17,20 @@ h1 {
     display: none;
     text-align: justify;
     color: white;
+    background-color: darkmagenta;
+}
+.imgTxt {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: medium;
+    color: rgb(219, 219, 219);
+    text-align: center;
+}
+.ending {
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color: wheat;
+    background-color: green;
 }
 .imageBox {
     margin: auto;

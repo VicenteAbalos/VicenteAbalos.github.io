@@ -29,6 +29,14 @@ h1 {
     font-size: medium;
     color: rgb(219, 219, 219);
 }
+.btntxt {
+    font-family: Times;
+    font-size: medium;
+    text-align: center;
+    width: 50%;
+    color: wheat;
+    background-color: green;
+}
 .ending {
     font-family: Times;
     font-size: medium;

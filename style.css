@@ -13,14 +13,12 @@ h1 {
 }
 .summary {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: large;
     display: none;
-    color: white;
-    text-align: justify;
-    margin: auto;
 }
 .imageBox {
     margin: auto;
+    align-items: center;
 }
 img {
     margin-left: auto;
@@ -30,7 +28,8 @@ body {
     background-color: #2d2d61;
 }
 table {
-    border: black 10px solid;
+    border-style: solid;
+    border-width: large;
     margin: auto;
 }
 

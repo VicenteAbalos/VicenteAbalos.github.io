@@ -3,7 +3,7 @@ title {
     text-align: center;
 }
 h1 {
-    font-family: 'Times New Roman';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: large;
     color: orange;
@@ -16,7 +16,8 @@ h1 {
     color: rgb(219, 219, 219);
 }
 img {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 body {
     background-color: #2d2d61;

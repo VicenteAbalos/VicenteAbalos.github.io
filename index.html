@@ -73,10 +73,10 @@
         </tr>
     </table>
     <div>
-        <label for="tInput">Isert Text</label><br>
+        <label for="tInput" class="List">Insert Text</label><br>
         <input type="text" class="txtInput" id="tInput">
         <button type="button" onclick="mybuttonT()">DISPLAY</button>
-        <p id="textholder"></p>
+        <p class="ending" id="textholder"></p>
     </div>
     <p class="ending">You've reached the end! Have a <a href="https://en.wikipedia.org/wiki/Pwyll_Pendefig_Dyfed">link</a>. It-s on the house.</p>
 
@@ -92,8 +92,8 @@
     }
     function mybuttonT(){
         var t=document.getElementById("textholder");
-        var inp=document.getElementById("tInput");
-        t.innerHTML=inp.innerHTML;
+        var inp=document.getElementById("tInput").innerHTML;
+        t.innerHTML=inp;
 
     }
 </script>

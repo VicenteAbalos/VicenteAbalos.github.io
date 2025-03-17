@@ -1,10 +1,25 @@
 title {
     font-family: verdana;
     text-align: center;
-
+}
+h1 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: large;
+    color: orange;
+    background-color: rgb(140, 0, 0);
+}
+.List {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: medium;
+    color: rgb(219, 219, 219);
+}
+img {
+    margin: auto;
 }
 body {
-    background-color: #1d1d39;
+    background-color: #2d2d61;
 }
 table {
     border: black 1px solid;
@@ -14,8 +29,10 @@ table {
 th {
     border-style: solid;
     border-width: medium;
+    background-color: aquamarine;
 }
 td {
     border-style: solid;
     border-width: medium;
+    background-color: lightcoral;
 }

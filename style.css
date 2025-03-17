@@ -31,11 +31,11 @@ h1 {
 }
 .btntxt {
     font-family: Times;
-    font-size: medium;
     text-align: center;
-    width: 50%;
+    font-size: medium;
     color: wheat;
     background-color: green;
+    width: 50%;
 }
 .ending {
     font-family: Times;

@@ -17,6 +17,7 @@ h1 {
     display: none;
     color: white;
     text-align: justify;
+    margin: auto;
 }
 .imageBox {
     margin: auto;
@@ -29,7 +30,7 @@ body {
     background-color: #2d2d61;
 }
 table {
-    border: black 5px solid;
+    border: black 10px solid;
     margin: auto;
 }
 

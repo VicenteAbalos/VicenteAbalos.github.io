@@ -18,6 +18,9 @@ h1 {
     color: white;
     display: none;
 }
+.imageBox {
+    margin: auto;
+}
 img {
     margin-left: auto;
     margin-right: auto;

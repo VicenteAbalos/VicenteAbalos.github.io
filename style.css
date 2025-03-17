@@ -38,6 +38,7 @@ h1 {
 .imageBox {
     margin: auto;
     display: block;
+    background-color: #2d2d61;
 }
 img {
     display: block;
